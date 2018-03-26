@@ -31,8 +31,10 @@ git clone https://github.com/nanako9441/vue-elm
 
 cd vue-elm  
 
-npm install
+npm install -g cnpm --registry=https://registry.npm.taobao.org (安装cnpm,以保证能够安装上node-sass,同时安装速度更快)
 
-npm run dev (访问线上后台系统)
+cnpm install
+
+cnpm run dev (访问线上后台系统)
 
 访问: http://localhost:8080
